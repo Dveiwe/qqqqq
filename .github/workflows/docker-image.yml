@@ -11,5 +11,5 @@ jobs:
         with:
           # 下方的name格式为：Docker Hub ID/自定义镜像名称
           name: currentprivate/Current
-          username: '${{ secrets.currentprivate }}'
-          password: '${{ secrets.nahanlaoba3228 }}'
+          username: '${{ secrets.DOCKER_USERNAME }}'
+          password: '${{ secrets.DOCKER_PASSWORD }}'
